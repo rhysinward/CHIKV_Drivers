@@ -16,11 +16,11 @@ Local transmission is modelled with a semi-mechanistic renewal framework in
 which the effective reproduction number is factored into three interpretable components:
 
 ```
-R<sub>eff(t)<sub> = α · R<sub>env(t)<sub> · S(t)
+R<sub>eff(t)</sub> = α · R<sub>env(t)</sub> · S(t)
 ```
 
 - **α** — a time-invariant, per-setting calibration scalar (estimated on training data only).
-- **R<sub>env<sub>(t)** — a climate-driven environmental suitability index, mapped onto the
+- **R<sub>env</sub>(t)** — a climate-driven environmental suitability index, mapped onto the
   reproduction-number scale by a calibration constant κ estimated from epidemic take-off windows.
 - **S(t)** — time-varying population susceptibility.
 
